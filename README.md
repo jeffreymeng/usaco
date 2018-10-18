@@ -14,6 +14,10 @@ My solutions to [USACO](http://usaco.org) contests and training problems.
 
 Small notes about organization that are not at all necessary to be read.
 
+**Website:** I also host the usaco solutions, along with the problem
+statements, as a website [here](https://usaco.jeffkmeng.com) hosted
+by github pages from this repository.
+
 **Template:** [Template.java](/Template.java) is a template file I use
 for most problems (where the input is short enough to allow it). The input is
 in the main method, then passed on to `solve`, which computes the solution
