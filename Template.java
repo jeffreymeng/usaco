@@ -1,4 +1,5 @@
-// TODO: Template
+// Copyright (c) 2018 Jeffrey Meng - Licensed under the Apache 2.0 License
+// Basic USACO Template
 
 import java.io.*;
 import java.util.*;

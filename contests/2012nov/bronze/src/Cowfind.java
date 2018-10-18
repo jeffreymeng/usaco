@@ -1,3 +1,4 @@
+// Copyright (c) 2018 Jeffrey Meng - Licensed under the Apache 2.0 License
 // USACO November 2012 - Find the cow! (cowfind)
 
 import java.io.*;
@@ -9,7 +10,8 @@ class Cowfind {
 		BufferedReader f = new BufferedReader(new FileReader("cowfind.in"));
 
 
-		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("cowfind.out")));
+		PrintWriter out =
+				new PrintWriter(new BufferedWriter(new FileWriter("cowfind.out")));
 
 		String field = f.readLine();
 
@@ -27,18 +29,18 @@ class Cowfind {
 
 		boolean lastIsOpen = (fieldArr[0] == '(');
 
-		//the pairs of opening parentheses ("front legs") up to this index
+		//the pairs of hind legs up to this index
 		int frontLegsToPoint = 0;
 
 		int result = 0;
 
 		for (int i = 1; i < fieldArr.length; i++) {
 
-			//we have a set of opening parentheses
-			if (lastIsOpen && fieldArr[i] == '(') {//we have a set of opening legs
+			//we have a set of hind legs
+			if (lastIsOpen && fieldArr[i] == '(') {
 				frontLegsToPoint++;
 
-				//we have a set of closing parentheses
+				//we have a set of front legs
 			} else if (!lastIsOpen && fieldArr[i] == ')') {
 				// each set of closing parentheses closes every single
 				// opening set before it, so we increment result by the number
@@ -47,7 +49,9 @@ class Cowfind {
 				result += frontLegsToPoint;
 			}
 
+			//we could omit this line and compare fieldArr[i-1] too
 			lastIsOpen = (fieldArr[i] == '(');
+
 
 		}
 		String[] out = new String[1];
