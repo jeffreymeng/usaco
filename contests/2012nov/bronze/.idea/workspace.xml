@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7071b0d9-42ef-49d5-b9ce-c4ca00d4e36a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../tester/src/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tester/src/GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tester/src/Grader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tester/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tester/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7071b0d9-42ef-49d5-b9ce-c4ca00d4e36a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +13,7 @@
     <session id="-1831677510">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
@@ -161,7 +155,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540019600196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540019630302" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -215,16 +209,15 @@
       <updated>1539838501999</updated>
       <workItem from="1539838503169" duration="1204000" />
       <workItem from="1539892251402" duration="1197000" />
-      <workItem from="1540009672204" duration="4019000" />
+      <workItem from="1540009672204" duration="4160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6510000" />
+    <option name="totallyTimeSpent" value="6651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="98" width="1367" height="725" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25962263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -235,14 +228,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49962264" visible="true" weight="0.3206951" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49962264" weight="0.3206951" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50037736" side_tool="true" visible="true" weight="0.3206951" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50037736" side_tool="true" visible="true" weight="0.328594" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
