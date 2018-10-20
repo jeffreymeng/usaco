@@ -6,7 +6,8 @@ My solutions to [USACO](http://usaco.org) contests and training problems.
 
 | Contest Date | Problem Division | Problem ID | Problem Name | Notes | Score |
 |---|---|---|---|---|---|
-| November 2012 | Bronze | [cowfind](/contests/2012nov/bronze/src/Cowfind.java)| Find the cow! | Sweep | 10/10 |
+| November 2012 | Bronze | [cowfind](/contests/2012nov/bronze/src/Cowfind.java)| Find the cow! | [Sweep](https://usaco.jeffkmeng.com/contests/2012nov/bronze/cowfind.html) | 10/10 |
+| November 2012 | Bronze | [typo](/contests/2012nov/bronze/src/Typo.java)| Typo | [Sweep](https://usaco.jeffkmeng.com/contests/2012nov/bronze/typo.html) | 10/10 |
 
 -----
 
