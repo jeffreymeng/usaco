@@ -13,7 +13,7 @@ My solutions to [USACO](http://usaco.org) contests and training problems.
 
 ### Notes
 
-Small notes about organization that are not at all necessary to be read.
+Small notes about organization.
 
 **Website:** I also host the usaco solutions, along with the problem
 statements, as a website [here](https://usaco.jeffkmeng.com) hosted
