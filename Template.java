@@ -24,7 +24,7 @@ class Template {
     }
 
     public static String[] solve(String input) {
-        
+        //replace the following code.
         String[] out = new String[1];
         out[0] = input;
         return out;
