@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="" name="description">
+    <meta content="Jeffrey Meng" name="author">
+    <title>December 2018 Convention II - Jeffrey USACO</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/webassets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts -->
+    <script defer src="/webassets/font-awesome/regular.min.js"></script>
+    <script defer src="/webassets/font-awesome/solid.min.js"></script>
+    <script defer src="/webassets/font-awesome/brands.min.js"></script>
+    <script defer src="/webassets/font-awesome/fontawesome.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'><!-- Custom styles for this template -->
+
+    <!-- Syntax highlighting -->
+    <link href="/webassets/css/prism.css" rel="stylesheet">
+
+    <!-- Math -->
+    <script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+		 		root:"/webassets/js/mathjax",
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+				  	inlineMath: [ ['$$','$$'], ["\\(","\\)"] ],
+				  	displayMath: [ ["\\[","\\]"] ],
+				  	processEscapes: true
+				},
+				"HTML-CSS": { fonts: ["TeX"] }
+
+		  });
+	</script>
+    <script type="text/javascript" src="/webassets/js/mathjax/mathjax.min.js">
+    </script>
+
+
+    <link href="/webassets/css/clean-blog.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="/">Jeffrey USACO</a> <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" data-toggle="collapse" type="button">Menu <i class="fas fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/jeffreymeng/usaco/">Github</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav><!-- Page Header -->
+<header class="masthead" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="post-heading">
+                    <h1>Convention II</h1>
+                    <h2 class="subheading">December 2018 Silver #2</h2><span class="meta">January 20, 2018</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header><!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-md-10 mx-auto">
+                <h2 class="section-heading">Problem Statement</h2>
+                <a data-toggle="collapse" id="problem-statement-collapse" href="#problem-statement" role="button" aria-expanded="false" aria-controls="problem-statement">
+                    Show</a>
+                <br>
+                <div class="collapse  card p-3" id="problem-statement">
+                    <p class="text-center"><b>Problem 2: The Bucket List</b></p>
+                    <p>
+                        Despite long delays in airport pickups, Farmer John's convention for cows interested in eating
+                        grass has been going well so far. It has attracted cows from all over the world.
+                    </p>
+                    <p>
+                        The main event of the conference, however, is looking like it might cause Farmer John some
+                        further scheduling woes. A very small pasture on his farm features a rare form of grass that
+                        is supposed to be the tastiest in the world, according to discerning cows. As a result,
+                        all of the $$N$$ cows at the conference ($$1 \leq N \leq 105) want to sample this grass.
+                        This will likely cause long lines to form, since the pasture is so small it can only
+                        accommodate one cow at a time.
+                    </p>
+                    <p>
+                        Farmer John knows the time $$a_i$$ that each cow $$i$$ plans to arrive at the special pasture,
+                        as well as the amount of time ti she plans to spend sampling the special grass, once it
+                        becomes her turn. Once cow $$i$$ starts eating the grass, she spends her full time of
+                        $$t_i$$ before leaving, during which other arriving cows need to wait. If multiple cows
+                        are waiting when the pasture becomes available again, the cow with the highest seniority
+                        is the next to be allowed to sample the grass. For this purpose, a cow who arrives right
+                        as another cow is finishing is considered "waiting". Similarly, if a number of cows all
+                        arrive at exactly the same time while no cow is currently eating, then the one with highest
+                        seniority is the next to eat.
+                    </p>
+                    <p>
+                        Please help FJ compute the maximum amount of time any cow might possibly have to wait in line
+                        (between time $$a_i$$ and the time the cow begins eating).
+                    </p>
+                    <p>
+                        INPUT FORMAT (file convention2.in):<br>
+                        The first line of input contains $$N$$. Each of the next $$N$$ lines specify the details of the
+                        $$N$$ cows in order of seniority (the most senior cow being first). Each line contains $$a_i$$
+                        and $$t_i$$ for one cow. The $$t_i$$'s are positive integers each at most $$104$$, and the
+                        $$a_i$$'s are positive integers at most $$109$$.
+                    </p>
+                    <p>
+                        OUTPUT FORMAT (file convention2.out):<br>
+                        Please print the longest potential waiting time over all the cows.
+                    </p>
+                    <p>
+                        SAMPLE INPUT:<br>
+                        5<br>
+                        25 3<br>
+                        105 30<br>
+                        20 50<br>
+                        10 17<br>
+                        100 10<br>
+                    </p>
+                    <p>
+                        SAMPLE OUTPUT:<br>
+                        10
+                    </p>
+                    <p>
+                        In this example, we have 5 cows (numbered 1..5 according to their order in the input).
+                        Cow 4 is the first to arrive (at time 10), and before she can finish eating (at time 27)
+                        cows 1 and 3 both arrive. Since cow 1 has higher seniority, she gets to eat next, having
+                        waited 2 units of time beyond her arrival time. She finishes at time 30, and then cow 3
+                        starts eating, having waited for 10 units of time beyond her starting time. After a gap
+                        where no cow eats, cow 5 arrives and then while she is eating cow 2 arrives, eating 5
+                        units of time later. The cow who is delayed the most relative to her arrival time is cow 3.
+                    </p>
+                    Problem credits: Brian Dean
+
+                </div>
+                <br>
+                (<a href="http://usaco.org/index.php?page=viewproblem2&cpid=859">usaco.org/index.php?page=viewproblem2&cpid=859</a>)
+
+                <h2 class="section-heading">Solution</h2>
+
+                <p>
+                    There are few enough cows at the conference that we can simply simulate this. After sorting by arrival time,
+                    we can sweep the cows. Going through each cow, we check if a cow will still be eating by the time it is scheduled
+					to eat. If so, we add it to a "line"(ArrayList). Then, if there is a line, we pick the most senior cow from the
+					line to go. Each time a cow leaves the line to eat, we count how much time they have been waiting and keep a
+					maximum of this number. Additionally, we go through the array to see if there are any more cows
+					scheduled to arrive while that cow is eating, and if they are, they join the line as well. When the line is
+					empty, we move to the next unprocessed cow and repeat.
+                </p>
+
+                <pre data-src="./src/convention2.java" data-download-link id="solution"></pre>
+
+            </div>
+        </div>
+    </div>
+</article>
+<hr>
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="mailto:jeffkmeng@gmail.com"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i> <i class="far fa-envelope fa-stack-1x fa-inverse"></i></span></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.jeffkmeng.com"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i> <i class="far fa-globe fa-stack-1x fa-inverse"></i></span></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/jeffreymeng/usaco/"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i> <i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Jeffrey Meng 2018</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="/webassets/js/jquery.min.js"></script>
+<script src="/webassets/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="/webassets/js/clean-blog.min.js"></script>
+
+<!-- Syntax highlighting -->
+<script src="/webassets/js/prism.js"></script>
+
+<script>
+    $("#problem-statement-collapse").click(function() {
+        var isExpanded = $("#problem-statement").hasClass("show");
+        $("#problem-statement-collapse").text(!isExpanded ? "Hide" : "Show");
+    });
+
+    Prism.plugins.toolbar.registerButton("GithubSource", {
+        text: "View Source on Github", // required
+        url:"https://github.com/jeffreymeng/usaco/tree/master/contests/2018dec/silver/src/convention2.java"
+    });
+</script>
+
+</body>
+</html>

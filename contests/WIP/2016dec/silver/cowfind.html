@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta content="" name="description">
+	<meta content="Jeffrey Meng" name="author">
+	<title>Nov 2018 Cowfind - Jeffrey USACO</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="/webassets/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom fonts -->
+	<script defer src="/webassets/font-awesome/regular.min.js"></script>
+	<script defer src="/webassets/font-awesome/solid.min.js"></script>
+	<script defer src="/webassets/font-awesome/brands.min.js"></script>
+	<script defer src="/webassets/font-awesome/fontawesome.min.js"></script>
+
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'><!-- Custom styles for this template -->
+
+	<!-- Syntax highlighting -->
+	<link href="/webassets/css/prism.css" rel="stylesheet">
+
+	<link href="/webassets/css/clean-blog.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+	<div class="container">
+		<a class="navbar-brand" href="/">Jeffrey USACO</a> <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" data-toggle="collapse" type="button">Menu <i class="fas fa-bars"></i></button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/about.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/jeffreymeng/usaco/">Github</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav><!-- Page Header -->
+<header class="masthead" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-10 mx-auto">
+				<div class="post-heading">
+					<h1>Find the cow!</h1>
+					<h2 class="subheading">November 2012 Bronze #1</h2><span class="meta">October 17, 2018</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</header><!-- Post Content -->
+<article>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-md-10 mx-auto">
+				<h2 class="section-heading">Problem Statement</h2>
+				<a data-toggle="collapse" id="problem-statement-collapse" href="#problem-statement" role="button" aria-expanded="false" aria-controls="problem-statement">
+					Show</a>
+				<br>
+				<blockquote class="collapse blockquote card p-3" id="problem-statement">
+					<p class="text-center"><b>Problem 1: Find the Cow! [Brian Dean, 2012]</b></p>
+					<pre>
+
+
+Bessie the cow has escaped and is hiding on a ridge covered with tall
+grass.  Farmer John, in an attempt to recapture Bessie, has decided to
+crawl through the grass on his hands and knees so he can approach
+undetected.  Unfortunately, he is having trouble spotting Bessie from this
+vantage point. The grass in front of Farmer John looks like a string of N
+(1 <= N <= 50,000) parentheses; for example:
+
+)((()())())
+
+Farmer John knows that Bessie's hind legs look just like an adjacent pair
+of left parentheses ((, and that her front legs look exactly like a pair of
+adjacent right parentheses )).  Bessie's location can therefore be
+described by a pair of indices x < y such that (( is found at position x, and
+)) is found at position y.  Please compute the number of different such
+possible locations at which Bessie might be standing.
+
+PROBLEM NAME: cowfind
+
+INPUT FORMAT:
+
+* Line 1: A string of parentheses of length N (1 <= N <= 50,000).
+
+SAMPLE INPUT (file cowfind.in):
+
+)((()())())
+
+OUTPUT FORMAT:
+
+* Line 1: The number of possible positions at which Bessie can be
+standing -- that is, the number of distinct pairs of indices
+x < y at which there is the pattern (( at index x and the
+pattern )) at index y.
+
+SAMPLE OUTPUT (file cowfind.out):
+
+4
+
+OUTPUT DETAILS:
+
+There are 4 possible locations for Bessie, indicated below:
+
+1. )((()())())
+    ^^   ^^
+
+2. )((()())())
+    ^^  ^^
+
+3. )((()())())
+     ^^     ^^
+
+4. )((()())())
+     ^^      ^^
+					</pre>
+
+				</blockquote>
+				<br>
+				<a href="http://usaco.org/index.php?page=viewproblem2&cpid=187">USACO November 2012 - Find the cow!</a>
+
+				<h2 class="section-heading">Solution</h2>
+
+				<p>
+					Since each new set of front legs can be the front legs for each set of hind legs before it,
+					we can just sweep through the data once and then for each set of front legs increment the number
+					of hind legs before it to the output.
+				</p>
+
+				<pre data-src="./src/Cowfind.java" data-download-link></pre>
+
+			</div>
+		</div>
+	</div>
+</article>
+<hr>
+<!-- Footer -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-10 mx-auto">
+				<ul class="list-inline text-center">
+					<li class="list-inline-item">
+						<a href="mailto:jeffkmeng@gmail.com"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i> <i class="far fa-envelope fa-stack-1x fa-inverse"></i></span></a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://www.jeffkmeng.com"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i> <i class="far fa-globe fa-stack-1x fa-inverse"></i></span></a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://github.com/jeffreymeng/usaco/"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i> <i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a>
+					</li>
+				</ul>
+				<p class="copyright text-muted">Copyright &copy; Jeffrey Meng 2018</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="/webassets/js/jquery.min.js"></script>
+<script src="/webassets/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="/webassets/js/clean-blog.min.js"></script>
+
+<!-- Syntax highlighting -->
+<script src="/webassets/js/prism.js"></script>
+
+<script>
+	$("#problem-statement-collapse").click(function() {
+		var isExpanded = $("#problem-statement").hasClass("show");
+		$("#problem-statement-collapse").text(!isExpanded ? "Hide" : "Show");
+	});
+
+	Prism.plugins.toolbar.registerButton("GithubSource", {
+		text: "View Source on Github", // required
+		url:"https://github.com/jeffreymeng/usaco/tree/master/contests/2012nov/bronze/src/Cowfind.java"
+	});
+</script>
+
+</body>
+</html>

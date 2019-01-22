@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7071b0d9-42ef-49d5-b9ce-c4ca00d4e36a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../2012nov/bronze/hshoe.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012nov/bronze/src/Hshoe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012nov/tester/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012nov/tester/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012nov/tester/.idea/tester.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012nov/tester/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backforth.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backforth.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blist.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blist.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bronze.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mixmilk.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backforth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mixmilk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2012nov/bronze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2012nov/bronze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2012nov/bronze/out/production/bronze/Typo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../2012nov/bronze/out/production/bronze/Typo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2012nov/bronze/typo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2012nov/bronze/typo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2012nov/tester/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2012nov/tester/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webassets/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../webassets/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../webassets/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../webassets/js/bootstrap.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1831677510">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="7" />
+          <entry key="project.opened" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="in" value="4" />
+          <entry key="java" value="4" />
+          <entry key="md" value="2" />
+          <entry key="out" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="4" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="125" />
+          <entry key="in" value="6" />
+          <entry key="java" value="5496" />
+          <entry key="md" value="1608" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="125" />
+          <entry key="JAVA" value="5496" />
+          <entry key="Markdown" value="1608" />
+          <entry key="PLAIN_TEXT" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+    </session>
+    <session id="-1799469123">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1838356084">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="2" />
+          <entry key="in" value="3" />
+          <entry key="java" value="4" />
+          <entry key="out" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="4" />
+          <entry key="PLAIN_TEXT" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="4" />
+          <entry key="java" value="3579" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="4" />
+          <entry key="JAVA" value="3579" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mixmilk.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>2</find>
+      <find>: 1</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cowfind.in" />
+        <option value="$PROJECT_DIR$/src/Cowfind.java" />
+        <option value="$PROJECT_DIR$/typo.in" />
+        <option value="$PROJECT_DIR$/cowfind.html" />
+        <option value="$PROJECT_DIR$/../../../README.md" />
+        <option value="$PROJECT_DIR$/src/Typo.java" />
+        <option value="$PROJECT_DIR$/src/Horseshoes.java" />
+        <option value="$PROJECT_DIR$/hshoe.in" />
+        <option value="$PROJECT_DIR$/src/Hshoe.java" />
+        <option value="$PROJECT_DIR$/mixmilk.in" />
+        <option value="$PROJECT_DIR$/src/mixmilk.java" />
+        <option value="$PROJECT_DIR$/mixmilk.out" />
+        <option value="$PROJECT_DIR$/mixmilk.html" />
+        <option value="$PROJECT_DIR$/blist.in" />
+        <option value="$PROJECT_DIR$/src/blist.java" />
+        <option value="$PROJECT_DIR$/backforth.in" />
+        <option value="$PROJECT_DIR$/src/backforth.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="399" />
+    <option name="y" value="23" />
+    <option name="width" value="1799" />
+    <option name="height" value="1335" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bronze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bronze" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544847190121" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.backforth">
+    <configuration name="Hshoe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hshoe" />
+      <module name="bronze" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mixmilk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mixmilk" />
+      <module name="bronze" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="backforth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backforth" />
+      <module name="bronze" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="blist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="blist" />
+      <module name="bronze" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mixmilk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mixmilk" />
+      <module name="bronze" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Hshoe" />
+      <item itemvalue="Application.Mixmilk" />
+      <item itemvalue="Application.mixmilk" />
+      <item itemvalue="Application.blist" />
+      <item itemvalue="Application.backforth" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.backforth" />
+        <item itemvalue="Application.blist" />
+        <item itemvalue="Application.mixmilk" />
+        <item itemvalue="Application.Mixmilk" />
+        <item itemvalue="Application.Hshoe" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7071b0d9-42ef-49d5-b9ce-c4ca00d4e36a" name="Default Changelist" comment="" />
+      <created>1539838501999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539838501999</updated>
+      <workItem from="1539838503169" duration="1204000" />
+      <workItem from="1539892251402" duration="1197000" />
+      <workItem from="1540009672204" duration="4160000" />
+      <workItem from="1540057717819" duration="519000" />
+      <workItem from="1540066912009" duration="7078000" />
+      <workItem from="1540100820383" duration="1505000" />
+      <workItem from="1540102926422" duration="363000" />
+      <workItem from="1540134521534" duration="729000" />
+      <workItem from="1540140988028" duration="425000" />
+      <workItem from="1540141809656" duration="849000" />
+      <workItem from="1540142680612" duration="1318000" />
+      <workItem from="1540145107916" duration="2000" />
+      <workItem from="1540156326750" duration="2000" />
+      <workItem from="1540157323085" duration="20000" />
+      <workItem from="1540163514066" duration="382000" />
+      <workItem from="1540184115540" duration="153000" />
+      <workItem from="1540253530108" duration="804000" />
+      <workItem from="1540335255974" duration="5000" />
+      <workItem from="1540575807663" duration="4000" />
+      <workItem from="1540614956539" duration="156000" />
+      <workItem from="1541551569188" duration="8000" />
+      <workItem from="1543185224233" duration="1234000" />
+      <workItem from="1543258948897" duration="124000" />
+      <workItem from="1543430150269" duration="32000" />
+      <workItem from="1543540415606" duration="621000" />
+      <workItem from="1543545674837" duration="5000" />
+      <workItem from="1543950187349" duration="519000" />
+      <workItem from="1544241977764" duration="461000" />
+      <workItem from="1544311965684" duration="155000" />
+      <workItem from="1544420485967" duration="589000" />
+      <workItem from="1544511635913" duration="460000" />
+      <workItem from="1544665615515" duration="2000" />
+      <workItem from="1544839942995" duration="7521000" />
+      <workItem from="1544898322818" duration="24000" />
+      <workItem from="1544898392840" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="32753000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="399" y="23" width="1799" height="1335" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.22822994" />
+      <window_info id="Structure" order="1" sideWeight="0.5046512" side_tool="true" weight="0.2709434" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49962264" weight="0.32789117" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4935849" weight="0.5533428" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49509433" weight="0.39968404" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.328594" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.15102041" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50641507" side_tool="true" weight="0.3206951" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49886793" weight="0.32784185" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.34113207" />
+      <window_info id="Structure" order="1" sideWeight="0.5046512" side_tool="true" weight="0.2709434" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49962264" weight="0.328594" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4935849" weight="0.3206951" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49509433" weight="0.39968404" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.328594" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.328594" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50641507" side_tool="true" weight="0.3206951" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49886793" weight="0.328594" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cowfind.out" />
+    <entry file="file://$PROJECT_DIR$/cowfind.in" />
+    <entry file="file://$PROJECT_DIR$/typo.in" />
+    <entry file="file://$PROJECT_DIR$/../../../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cowfind.java" />
+    <entry file="file://$PROJECT_DIR$/hshoe.out" />
+    <entry file="file://$PROJECT_DIR$/hshoe.in" />
+    <entry file="file://$PROJECT_DIR$/typo.out" />
+    <entry file="file://$PROJECT_DIR$/src/Hshoe.java" />
+    <entry file="file://$PROJECT_DIR$/src/Typo.java" />
+    <entry file="file://$PROJECT_DIR$/mixmilk.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mixmilk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" lean-forward="true" selection-end-line="62" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mixmilk.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backforth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="23" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backforth.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backforth.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blist.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blist.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mixmilk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

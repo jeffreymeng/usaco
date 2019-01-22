@@ -6,6 +6,15 @@ My solutions to [USACO](http://usaco.org) contests and training problems.
 
 | Contest Date | Problem Division | Problem ID | Problem Name | Notes | Score |
 |---|---|---|---|---|---|
+| January 2019 | Silver | [mountains](/contests/2019jan/silver/src/mooyomooyo.java)| Mountain View | [Sweep](https://usaco.jeffkmeng.com/contests/2019jan/silver/mountains.html) - WIP| 10/10 |
+| January 2019 | Silver | [perimeter](/contests/2019jan/silver/src/convention2.java)| Icy Perimeter | [DFS Floodfill](https://usaco.jeffkmeng.com/contests/2019jan/silver/perimeter.html) - WIP | 10/10 |
+| January 2019 | Silver | [planting](/contests/2019jan/silver/src/convention.java)| Planting Grass | Sweep | 9/10 |
+| December 2018 | Silver | [mooyomooyo](/contests/2018dec/silver/src/mooyomooyo.java)| Mooyo Mooyo | [DFS Floodfill](https://usaco.jeffkmeng.com/contests/2018dec/silver/mooyomooyo.html) | 10/10 |
+| December 2018 | Silver | [convention2](/contests/2018dec/silver/src/convention2.java)| Convention 2 | [Simulation](https://usaco.jeffkmeng.com/contests/2018dec/silver/convention2.html) | 10/10 |
+| December 2018 | Silver | [convention](/contests/2018dec/silver/src/convention.java)| Convention | Binary Search & Greedy | 1/10 |
+| December 2018 | Bronze | [backforth](/contests/2018dec/bronze/src/mixmilk.java)| Back and Forth | [Simulation](https://usaco.jeffkmeng.com/contests/2018dec/bronze/backforth.html) | 10/10 |
+| December 2018 | Bronze | [blist](/contests/2018dec/bronze/src/mixmilk.java)| The Bucket List | [Sweep](https://usaco.jeffkmeng.com/contests/2018dec/bronze/blist.html) | 10/10 |
+| December 2018 | Bronze | [mixmilk](/contests/2018dec/bronze/src/mixmilk.java)| Mixing Milk | [Simulation](https://usaco.jeffkmeng.com/contests/2018dec/bronze/mixmilk.html) | 10/10 |
 | November 2012 | Bronze | [cowfind](/contests/2012nov/bronze/src/Cowfind.java)| Find the cow! | [Sweep](https://usaco.jeffkmeng.com/contests/2012nov/bronze/cowfind.html) | 10/10 |
 | November 2012 | Bronze | [typo](/contests/2012nov/bronze/src/Typo.java)| Typo | [Sweep](https://usaco.jeffkmeng.com/contests/2012nov/bronze/typo.html) | 10/10 |
 

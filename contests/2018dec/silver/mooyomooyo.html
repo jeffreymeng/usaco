@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta content="" name="description">
+	<meta content="Jeffrey Meng" name="author">
+	<title>December 2018 Mooyo Mooyo - Jeffrey USACO</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="/webassets/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom fonts -->
+	<script defer src="/webassets/font-awesome/regular.min.js"></script>
+	<script defer src="/webassets/font-awesome/solid.min.js"></script>
+	<script defer src="/webassets/font-awesome/brands.min.js"></script>
+	<script defer src="/webassets/font-awesome/fontawesome.min.js"></script>
+
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'><!-- Custom styles for this template -->
+
+	<!-- Syntax highlighting -->
+	<link href="/webassets/css/prism.css" rel="stylesheet">
+
+	<!-- Math -->
+	<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+		 		root:"/webassets/js/mathjax",
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+				  	inlineMath: [ ['$$','$$'], ["\\(","\\)"] ],
+				  	displayMath: [ ["\\[","\\]"] ],
+				  	processEscapes: true
+				},
+				"HTML-CSS": { fonts: ["TeX"] }
+
+		  });
+	</script>
+	<script type="text/javascript" src="/webassets/js/mathjax/mathjax.min.js">
+	</script>
+
+
+	<link href="/webassets/css/clean-blog.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+	<div class="container">
+		<a class="navbar-brand" href="/">Jeffrey USACO</a> <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" data-toggle="collapse" type="button">Menu <i class="fas fa-bars"></i></button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/about.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/jeffreymeng/usaco/">Github</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav><!-- Page Header -->
+<header class="masthead" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-10 mx-auto">
+				<div class="post-heading">
+					<h1>Mooyo Mooyo</h1>
+					<h2 class="subheading">December 2018 Silver #3</h2><span class="meta">January 20, 2018</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</header><!-- Post Content -->
+<article>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-md-10 mx-auto">
+				<h2 class="section-heading">Problem Statement</h2>
+				<a data-toggle="collapse" id="problem-statement-collapse" href="#problem-statement" role="button" aria-expanded="false" aria-controls="problem-statement">
+					Show</a>
+				<br>
+				<div class="collapse  card p-3" id="problem-statement">
+					<p class="text-center"><b>Problem 3: Mooyo Mooyo</b></p>
+					<p>
+						With plenty of free time on their hands (or rather, hooves), the cows on Farmer John's farm often
+						pass the time by playing video games. One of their favorites is based on a popular human video
+						game called Puyo Puyo; the cow version is of course called Mooyo Mooyo.
+					</p>
+					<p>
+						The game of Mooyo Mooyo is played on a tall narrow grid N cells tall ($$1 \leq N \leq 100$$) and
+						10 cells wide. Here is an example with $$N$$=6:
+					</p>
+					<pre>
+0000000000
+0000000300
+0054000300
+1054502230
+2211122220
+1111111223
+					</pre>
+					<p>
+						Each cell is either empty (indicated by a 0), or a haybale in one of nine different colors
+						(indicated by characters 1..9). Gravity causes haybales to fall downward, so there is never
+						a 0 cell below a haybale.
+					</p>
+					<p>
+						Two cells belong to the same connected region if they are directly adjacent either horizontally
+						or vertically, and they have the same nonzero color. Any time a connected region exists with at
+						least $$K$$ cells, its haybales all disappear, turning into zeros. If multiple such connected
+						regions exist at the same time, they all disappear simultaneously. Afterwards, gravity might
+						cause haybales to fall downward to fill some of the resulting cells that became zeros.
+						In the resulting configuration, there may again be connected regions of size at least $$K$$
+						cells. If so, they also disappear (simultaneously, if there are multiple such regions),
+						then gravity pulls the remaining cells downward, and the process repeats until no connected
+						regions of size at least $$K$$ exist.
+					</p>
+					<p>
+						Given the state of a Mooyo Mooyo board, please output a final picture of the board after these
+						operations have occurred.
+					</p>
+					<p>
+						INPUT FORMAT (file mooyomooyo.in):<br>
+						The first line of input contains $$N$$ and $$K$$ ($$1 \leq K \leq 10N$$). The remaining $$N$$
+						lines specify the initial state of the board.
+					</p>
+					<p>
+						OUTPUT FORMAT (file mooyomooyo.out):<br>
+						Please output $$N$$ lines, describing a picture of the final board state.
+					</p>
+					<pre>
+SAMPLE INPUT:
+6 3
+0000000000
+0000000300
+0054000300
+1054502230
+2211122220
+1111111223
+SAMPLE OUTPUT:
+0000000000
+0000000000
+0000000000
+0000000000
+1054000000
+2254500000
+					</pre>
+					<p>
+						In the example above, if $$K = 3$$, then there is a connected region of size at least $$K$$
+						with color 1 and also one with color 2. Once these are simultaneously removed, the board
+						temporarily looks like this:
+					</p>
+					<pre>
+0000000000
+0000000300
+0054000300
+1054500030
+2200000000
+0000000003
+					</pre>
+					<p>Then, gravity takes effect and the haybales drop to this configuration:</p>
+					<pre>
+0000000000
+0000000000
+0000000000
+0000000000
+1054000300
+2254500333
+					</pre>
+					<p>Again, there is a region of size at least K (with color 3). Removing it yields the final
+						board configuration:</p>
+
+					<pre>
+0000000000
+0000000000
+0000000000
+0000000000
+1054000000
+2254500000
+					</pre>
+					Problem credits: Brian Dean
+
+				</div>
+				<br>
+				(<a href="http://usaco.org/index.php?page=viewproblem2&cpid=860">usaco.org/index.php?page=viewproblem2&cpid=860</a>)
+
+				<h2 class="section-heading">Solution</h2>
+
+				<p>
+					This is a classic DFS Floodfill problem. We loop through each coordinate, and if the size of the region
+					is greater than the required amount, then we remove the entire area. After removing the area, we shift
+					the blocks down (gravity) and repeat. Because this code reads the input as (y, x) and the output
+					is (x, y), it also switches the orientation of the table. This is not required when you read the input correctly.
+
+				</p>
+
+				<pre data-src="./src/mooyomooyo.java" data-download-link id="solution"></pre>
+
+			</div>
+		</div>
+	</div>
+</article>
+<hr>
+<!-- Footer -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-10 mx-auto">
+				<ul class="list-inline text-center">
+					<li class="list-inline-item">
+						<a href="mailto:jeffkmeng@gmail.com"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i> <i class="far fa-envelope fa-stack-1x fa-inverse"></i></span></a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://www.jeffkmeng.com"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i> <i class="far fa-globe fa-stack-1x fa-inverse"></i></span></a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://github.com/jeffreymeng/usaco/"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i> <i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a>
+					</li>
+				</ul>
+				<p class="copyright text-muted">Copyright &copy; Jeffrey Meng 2018</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="/webassets/js/jquery.min.js"></script>
+<script src="/webassets/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="/webassets/js/clean-blog.min.js"></script>
+
+<!-- Syntax highlighting -->
+<script src="/webassets/js/prism.js"></script>
+
+<script>
+	$("#problem-statement-collapse").click(function() {
+		var isExpanded = $("#problem-statement").hasClass("show");
+		$("#problem-statement-collapse").text(!isExpanded ? "Hide" : "Show");
+	});
+
+	Prism.plugins.toolbar.registerButton("GithubSource", {
+		text: "View Source on Github", // required
+		url:"https://github.com/jeffreymeng/usaco/tree/master/contests/2018dec/silver/src/mooyomooyo.java"
+	});
+</script>
+
+</body>
+</html>

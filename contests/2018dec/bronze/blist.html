@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="" name="description">
+    <meta content="Jeffrey Meng" name="author">
+    <title>December 2018 The Bucket List - Jeffrey USACO</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/webassets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts -->
+    <script defer src="/webassets/font-awesome/regular.min.js"></script>
+    <script defer src="/webassets/font-awesome/solid.min.js"></script>
+    <script defer src="/webassets/font-awesome/brands.min.js"></script>
+    <script defer src="/webassets/font-awesome/fontawesome.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'><!-- Custom styles for this template -->
+
+    <!-- Syntax highlighting -->
+    <link href="/webassets/css/prism.css" rel="stylesheet">
+
+    <!-- Math -->
+    <script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+		 		root:"/webassets/js/mathjax",
+				extensions: ["tex2jax.js"],
+				jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: {
+				  	inlineMath: [ ['$$','$$'], ["\\(","\\)"] ],
+				  	displayMath: [ ["\\[","\\]"] ],
+				  	processEscapes: true
+				},
+				"HTML-CSS": { fonts: ["TeX"] }
+
+		  });
+	</script>
+    <script type="text/javascript" src="/webassets/js/mathjax/mathjax.min.js">
+    </script>
+
+
+    <link href="/webassets/css/clean-blog.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="/">Jeffrey USACO</a> <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" data-toggle="collapse" type="button">Menu <i class="fas fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/jeffreymeng/usaco/">Github</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav><!-- Page Header -->
+<header class="masthead" style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="post-heading">
+                    <h1>The Bucket List</h1>
+                    <h2 class="subheading">December 2018 Bronze #2</h2><span class="meta">January 19, 2018</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header><!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-md-10 mx-auto">
+                <h2 class="section-heading">Problem Statement</h2>
+                <a data-toggle="collapse" id="problem-statement-collapse" href="#problem-statement" role="button" aria-expanded="false" aria-controls="problem-statement">
+                    Show</a>
+                <br>
+                <div class="collapse  card p-3" id="problem-statement">
+                    <p class="text-center"><b>Problem 2: The Bucket List</b></p>
+                    <p>
+                        Farmer John is considering a change in how he allocates buckets for milking his cows.
+                        He thinks this will ultimately allow him to use a small number of total buckets,
+                        but he is not sure how many exactly. Please help him out!
+                    </p>
+                    <p>
+                        Farmer John has N cows ($$1 \leq N \leq 100$$), conveniently numbered $$1 \ldots N$$. The $$i$$th cow needs to be milked
+                        from time $$s_i$$ to time $$t_i$$, and requires $$b_i$$ buckets to be used during the milking process.
+                        Several cows might end up being milked at the same time; if so, they cannot use the same
+                        buckets. That is, a bucket assigned to cow $$i$$'s milking cannot be used for any other cow's
+                        milking between time $$s_i$$ and time $$t_i$$. The bucket can be used for other cows outside this
+                        window of time, of course. To simplify his job, FJ has made sure that at any given moment
+                        in time, there is at most one cow whose milking is starting or ending (that is, the $$s_i$$'s
+                        and $$t_i$$'s are all distinct).
+                    </p>
+                    <p>
+                        FJ has a storage room containing buckets that are sequentially numbered with labels 1, 2, 3,
+                        and so on. In his current milking strategy, whenever some cow (say, cow $$i$$) starts milking
+                        (at time $$s_i$$), FJ runs to the storage room and collects the $$b_i$$ buckets with the smallest
+                        available labels and allocates these for milking cow $$i$$.
+                    </p>
+                    <p>
+                        Please determine how many total buckets FJ would need to keep in his
+                        storage room in order to milk all the cows successfully.
+                    </p>
+
+                    <p>
+                        INPUT FORMAT (file blist.in):<br>
+                        The first line of input contains $$N$$. The next $$N$$ lines each describe one cow, containing
+                        the numbers $$s_i$$, $$t_i$$, and $$b_i$$, separated by spaces. Both $$s_i$$ and $$t_i$$ are integers in the
+                        range $$1 \ldots 1000$$, and bi is an integer in the range $$1 \ldots 10$$.
+                    </p>
+                    <p>
+                        OUTPUT FORMAT (file blist.out):<br>
+                        Output a single integer telling how many total buckets FJ needs.
+                    </p>
+                    <p>
+                        SAMPLE INPUT:<br>
+                        3<br>
+                        4 10 1<br>
+                        8 13 3<br>
+                        2 6 2<br>
+                    </p>
+                    <p>
+                        SAMPLE OUTPUT:<br>
+                        4<br>
+                        In this example, FJ needs 4 buckets: He uses buckets 1 and 2 for milking cow 3
+                        (starting at time 2). He uses bucket 3 for milking cow 1 (starting at time 4).
+                        When cow 2 arrives at time 8, buckets 1 and 2 are now available, but not bucket 3,
+                        so he uses buckets 1, 2, and 4.
+
+                    </p>
+                    Problem credits: Brian Dean
+
+                </div>
+                <br>
+                (<a href="http://usaco.org/index.php?page=viewproblem2&cpid=856">usaco.org/index.php?page=viewproblem2&cpid=856</a>)
+
+                <h2 class="section-heading">Solution</h2>
+
+                <p>
+                    There are at most 100 cows and 1000 times, so our solution need not be efficient, only simple. We keep track of
+                    how many buckets are needed by looping through each cow and adding that cow's required number
+                    of buckets to that time. While we do this, we also keep track of which time has the most buckets,
+                    and how many buckets are used at that time, which is our answer.
+                </p>
+
+                <pre data-src="./src/blist.java" data-download-link id="solution"></pre>
+
+            </div>
+        </div>
+    </div>
+</article>
+<hr>
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="mailto:jeffkmeng@gmail.com"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i> <i class="far fa-envelope fa-stack-1x fa-inverse"></i></span></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.jeffkmeng.com"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i> <i class="far fa-globe fa-stack-1x fa-inverse"></i></span></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/jeffreymeng/usaco/"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i> <i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Jeffrey Meng 2018</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="/webassets/js/jquery.min.js"></script>
+<script src="/webassets/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="/webassets/js/clean-blog.min.js"></script>
+
+<!-- Syntax highlighting -->
+<script src="/webassets/js/prism.js"></script>
+
+<script>
+    $("#problem-statement-collapse").click(function() {
+        var isExpanded = $("#problem-statement").hasClass("show");
+        $("#problem-statement-collapse").text(!isExpanded ? "Hide" : "Show");
+    });
+
+    Prism.plugins.toolbar.registerButton("GithubSource", {
+        text: "View Source on Github", // required
+        url:"https://github.com/jeffreymeng/usaco/tree/master/contests/2018dec/bronze/src/blist.java"
+    });
+</script>
+
+</body>
+</html>
