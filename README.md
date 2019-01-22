@@ -18,11 +18,10 @@ My solutions to [USACO](http://usaco.org) contests and training problems.
 | November 2012 | Bronze | [cowfind](/contests/2012nov/bronze/src/Cowfind.java)| Find the cow! | [Sweep](https://usaco.jeffkmeng.com/contests/2012nov/bronze/cowfind.html) | 10/10 |
 | November 2012 | Bronze | [typo](/contests/2012nov/bronze/src/Typo.java)| Typo | [Sweep](https://usaco.jeffkmeng.com/contests/2012nov/bronze/typo.html) | 10/10 |
 
------
 
 ### Notes
 
-Small notes about organization that are not at all necessary to be read.
+Small notes about organization.
 
 **Website:** I also host the usaco solutions, along with the problem
 statements, as a website [here](https://usaco.jeffkmeng.com) hosted
