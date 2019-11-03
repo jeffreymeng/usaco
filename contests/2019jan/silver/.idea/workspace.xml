@@ -2,43 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d341549-90a8-4836-a4d7-da13fb34368f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../2012nov/bronze/hshoe.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2012nov/bronze/src/Hshoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2012nov/tester/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2012nov/tester/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2012nov/tester/.idea/tester.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2012nov/tester/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2018dec/bronze/backforth.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2018dec/bronze/backforth.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2018dec/bronze/blist.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2018dec/bronze/blist.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2018dec/bronze/bronze.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2018dec/bronze/mixmilk.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2018dec/bronze/src/backforth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2018dec/bronze/src/blist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2018dec/bronze/src/mixmilk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2018dec/silver/convention.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2018dec/silver/convention2.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2018dec/silver/mooyomooyo.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2018dec/silver/src/convention.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2018dec/silver/src/convention2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../2018dec/silver/src/mooyomooyo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mountains.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/perimeter.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planting.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mountains.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/perimeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/planting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../webassets/js/mathjax/mathjax.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2012nov/bronze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2012nov/bronze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2012nov/bronze/out/production/bronze/Typo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../2012nov/bronze/out/production/bronze/Typo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2012nov/bronze/typo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2012nov/bronze/typo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2012nov/tester/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2012nov/tester/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2012nov/bronze/cowfind.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2012nov/bronze/cowfind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../webassets/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../webassets/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../webassets/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../webassets/js/bootstrap.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/planting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+            <state relative-caret-position="734">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,10 +112,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="238" />
+    <option name="x" value="122" />
     <option name="y" value="23" />
     <option name="width" value="1493" />
-    <option name="height" value="982" />
+    <option name="height" value="965" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -154,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,6 +146,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,16 +212,18 @@
       <workItem from="1547968789936" duration="599000" />
       <workItem from="1548034456619" duration="88000" />
       <workItem from="1548034562382" duration="24000" />
+      <workItem from="1550808411816" duration="507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15062000" />
+    <option name="totallyTimeSpent" value="15569000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="238" y="23" width="1493" height="982" extended-state="0" />
+    <frame x="122" y="23" width="1493" height="965" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26119918" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26464507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -314,8 +285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/planting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+        <state relative-caret-position="734">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

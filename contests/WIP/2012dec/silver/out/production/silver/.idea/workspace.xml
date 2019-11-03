@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba0da629-d792-4dd4-b0c8-4f6c596ce136" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dictionaries/jmeng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/silver/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/silver/grader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/silver/wifi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../silver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wifi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/1.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/10.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/10.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/2.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/3.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/3.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/4.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/4.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/5.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/5.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/6.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/6.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/7.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/7.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/8.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/9.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wifi/9.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2012mar/silver/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2012mar/silver/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2012mar/silver/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2012mar/silver/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2019feb/gold/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2019feb/gold/dishes.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2019feb/gold/gold.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2019feb/gold/src/cowland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2019feb/gold/src/dishes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2019feb/gold/src/djsktra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2012nov/bronze/cowfind.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2012nov/bronze/cowfind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2019jan/silver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2019jan/silver/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../index.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1RQlZcGZW9f0U766w54wYjV4uDr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba0da629-d792-4dd4-b0c8-4f6c596ce136" name="Default Changelist" comment="" />
+      <created>1569607256493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569607256493</updated>
+      <workItem from="1569607257702" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

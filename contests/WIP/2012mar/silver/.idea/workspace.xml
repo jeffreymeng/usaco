@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7071b0d9-42ef-49d5-b9ce-c4ca00d4e36a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/.idea/dictionaries/jmeng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/out/production/silver/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/out/production/silver/grader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/out/production/silver/wifi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/silver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/src/grader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/src/wifi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/1.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/10.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/10.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/2.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/2.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/3.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/3.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/4.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/4.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/5.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/5.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/6.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/6.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/7.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/7.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/8.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/9.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2012dec/silver/wifi/9.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2019feb/gold/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2019feb/gold/dishes.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2019feb/gold/gold.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2019feb/gold/src/cowland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2019feb/gold/src/dishes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2019feb/gold/src/djsktra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2012nov/bronze/cowfind.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../2012nov/bronze/cowfind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2019jan/silver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2019jan/silver/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../index.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>2</find>
+      <find>: 1</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RDpgLGDkPx8ubtT1KQfLKP0EWp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544913078934" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.grader">
+    <configuration name="convention" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="convention" />
+      <module name="silver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="convention2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="convention2" />
+      <module name="silver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="grader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grader" />
+      <module name="silver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mooyomooyo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mooyomooyo" />
+      <module name="silver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wifi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wifi" />
+      <module name="silver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.convention2" />
+      <item itemvalue="Application.mooyomooyo" />
+      <item itemvalue="Application.convention" />
+      <item itemvalue="Application.wifi" />
+      <item itemvalue="Application.grader" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.grader" />
+        <item itemvalue="Application.wifi" />
+        <item itemvalue="Application.convention" />
+        <item itemvalue="Application.convention2" />
+        <item itemvalue="Application.mooyomooyo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7071b0d9-42ef-49d5-b9ce-c4ca00d4e36a" name="Default Changelist" comment="" />
+      <created>1539838501999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539838501999</updated>
+      <workItem from="1539838503169" duration="1204000" />
+      <workItem from="1539892251402" duration="1197000" />
+      <workItem from="1540009672204" duration="4160000" />
+      <workItem from="1540057717819" duration="519000" />
+      <workItem from="1540066912009" duration="7078000" />
+      <workItem from="1540100820383" duration="1505000" />
+      <workItem from="1540102926422" duration="363000" />
+      <workItem from="1540134521534" duration="729000" />
+      <workItem from="1540140988028" duration="425000" />
+      <workItem from="1540141809656" duration="849000" />
+      <workItem from="1540142680612" duration="1318000" />
+      <workItem from="1540145107916" duration="2000" />
+      <workItem from="1540156326750" duration="2000" />
+      <workItem from="1540157323085" duration="20000" />
+      <workItem from="1540163514066" duration="382000" />
+      <workItem from="1540184115540" duration="153000" />
+      <workItem from="1540253530108" duration="804000" />
+      <workItem from="1540335255974" duration="5000" />
+      <workItem from="1540575807663" duration="4000" />
+      <workItem from="1540614956539" duration="156000" />
+      <workItem from="1541551569188" duration="8000" />
+      <workItem from="1543185224233" duration="1234000" />
+      <workItem from="1543258948897" duration="124000" />
+      <workItem from="1543430150269" duration="32000" />
+      <workItem from="1543540415606" duration="621000" />
+      <workItem from="1543545674837" duration="5000" />
+      <workItem from="1543950187349" duration="519000" />
+      <workItem from="1544241977764" duration="461000" />
+      <workItem from="1544311965684" duration="155000" />
+      <workItem from="1544420485967" duration="589000" />
+      <workItem from="1544511635913" duration="460000" />
+      <workItem from="1544665615515" duration="2000" />
+      <workItem from="1544839942995" duration="7521000" />
+      <workItem from="1544898322818" duration="24000" />
+      <workItem from="1544898444829" duration="3157000" />
+      <workItem from="1544901960400" duration="10992000" />
+      <workItem from="1545076926075" duration="574000" />
+      <workItem from="1545547447285" duration="123000" />
+      <workItem from="1545698420779" duration="520000" />
+      <workItem from="1569211633841" duration="7133000" />
+      <workItem from="1569526409504" duration="1679000" />
+      <workItem from="1569543265900" duration="676000" />
+      <workItem from="1569544579549" duration="296000" />
+      <workItem from="1569546026950" duration="226000" />
+      <workItem from="1569607191607" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
