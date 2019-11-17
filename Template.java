@@ -11,6 +11,7 @@ class Template {
 
 
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("template.out")));
+        StringTokenizer st = new StringTokenizer(f.readLine());
 
         String input = f.readLine();
 
